@@ -1,0 +1,29 @@
+<!-- id_card_template.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ID Card</title>
+    <style>
+        .id-card {
+            border: 1px solid #000;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .id-card img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="id-card">
+        <h2>ID Card</h2>
+        <img src="user_photo.jpg" alt="User Photo">
+        <p>Name: {{name}}</p>
+        <p>ID Number: {{idNumber}}</p>
+    </div>
+</body>
+</html>
+
